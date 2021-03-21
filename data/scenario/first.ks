@@ -4,7 +4,7 @@
     dummy_[emb exp="tf.text1"]_dummy_[emb exp="tf.text2"]_dummy
   [endmacro]
   [eval exp="tf.ks1='second.ks'"]
-;  [macro1]
+  [macro1]
   [link target="*target1"]_dummy_[endlink]
   [eval exp="tf.text3 = '_please_click_'"]
   [link target="*target1"][emb exp="tf.text3"][endlink]
