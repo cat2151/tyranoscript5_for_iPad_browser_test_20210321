@@ -31,6 +31,9 @@ http://cat2151.github.io/tyranoscript5_for_iPad_browser_test_20210321/
 https://github.com/cat2151/tyranoscript5_for_iPad_browser_test_20210321/blob/main/data/scenario/first.ks
 https://github.com/cat2151/tyranoscript5_for_iPad_browser_test_20210321/blob/main/data/scenario/second.ks
 
+## 確認時のティラノスクリプトのバージョン
+- `Ver507a（2021/3/10 更新）`です。
+
 ## 進行不能コードの作成方法
 - 公式ページ https://tyrano.jp/dl/ から、`ティラノスクリプトV5 最新版`をダウンロードします。
 - ティラノスタジオで新規プロジェクトを作成します。
