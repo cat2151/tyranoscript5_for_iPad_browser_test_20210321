@@ -8,7 +8,9 @@
   [link target="*target1"]_dummy_[endlink]
   [eval exp="tf.text3 = '_please_click_'"]
   [link target="*target1"][emb exp="tf.text3"][endlink]
-  [button fix="true" storage=&tf.ks1 x="20" y="200" graphic="button/auto2.png"]
+;  [button fix="true" storage=&tf.ks1 x="20" y="200" graphic="button/auto2.png"]
+  [button fix="true" storage="& tf.ks1" x="20" y="200" graphic="button/auto2.png"]
+    ; ↑こうするとOKになる
   [s]
 [endif]
 *target1
