@@ -1,5 +1,8 @@
 # 概要
+- ティラノスクリプトでコードを書いていたところ、特定条件で、iPadでのみ進行不能になりました。
+- 原因調査したところ、issuesに報告したほうがよさそうなので、まとめました。
 
+# 詳細
 - ティラノスクリプトは、いわゆるブラウザゲームも作ることができます。
 - Windowsでコードを書いてテストしながら作成中、気がつくとiPadでのみ進行不能になっていることに気づきました。
 - iPadのブラウザであれば、safari、chrome、Firefoxいずれも進行不能となりました。
@@ -20,3 +23,20 @@ http://cat2151.github.io/tyranoscript5_for_iPad_browser_test_20210321/
 - 以下を確認してください。
   - Windows PCの場合、`please_click` をクリック後、OKが表示されること。
   - iPadのブラウザ（safariまたはchromeまたFirefox）の場合、`please_click` をクリック後、`OK`が表示されないこと。
+
+# 補足
+
+## コードはどこ？
+- この2つです。
+https://github.com/cat2151/tyranoscript5_for_iPad_browser_test_20210321/blob/main/data/scenario/first.ks
+https://github.com/cat2151/tyranoscript5_for_iPad_browser_test_20210321/blob/main/data/scenario/second.ks
+
+## 進行不能コードの作成方法
+- 公式ページ https://tyrano.jp/dl/ から、`ティラノスクリプトV5 最新版`をダウンロードします。
+- ティラノスタジオで新規プロジェクトを作成します。
+- プロジェクトの `data\scenario\` を空にし、当リポジトリの `first.ks` と `second.ks` を配置します。
+
+## 再現環境
+- 自分のiPadのみです。ほかの環境のiPadでの確認は取れていません。
+- なので、環境依存トラブル、自分のiPadのなんらかの設定が原因、などの可能性も残っています。
+
