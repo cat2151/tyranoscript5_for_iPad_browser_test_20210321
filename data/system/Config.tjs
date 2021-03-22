@@ -18,6 +18,8 @@
 ;chSpeeds.fast=10
 ;chSpeeds.normal=30
 ;chSpeeds.slow=50
+;defaultChEffect=none
+;defaultChEffectSpeed=0.2s
 ;skipSpeed=30
 ;skipEffectIgnore=true
 ;autoSpeed=1300
