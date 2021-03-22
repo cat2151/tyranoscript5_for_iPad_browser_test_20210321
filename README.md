@@ -39,8 +39,9 @@ https://github.com/cat2151/tyranoscript5_for_iPad_browser_test_20210321/blob/mai
 - `Ver507a（2021/3/10 更新）`です。
 
 ## 進行不能コードの作成方法
-- 公式ページ https://tyrano.jp/dl/ から、`ティラノスクリプトV5 最新版`をダウンロードします。
-- ティラノスタジオの `resources/app/system_master/tyranoscript/` 配下に、`ティラノスクリプトV5 最新版` の内容をコピーします。
+- 公式ページ https://tyrano.jp/dl/v5 から、`「ティラノスクリプト V5 」のスタンダードパッケージ` をダウンロードします。
+- 同じく公式ページ https://tyrano.jp/studio から、 `ティラノスタジオ` をダウンロードします。
+- ティラノスタジオの `resources/app/system_master/tyranoscript/` 配下に、`ティラノスクリプト V5` を上書きコピーします。
 - ティラノスタジオで新規プロジェクトを作成します。
 - プロジェクトの `data\scenario\` を空にし、当リポジトリの `first.ks` と `second.ks` を配置します。
 
