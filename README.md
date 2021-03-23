@@ -46,6 +46,5 @@ https://github.com/cat2151/tyranoscript5_for_iPad_browser_test_20210321/blob/mai
 - プロジェクトの `data\scenario\` を空にし、当リポジトリの `first.ks` と `second.ks` を配置します。
 
 ## 再現環境
-- 自分のiPadのみです。ほかの環境のiPadでの確認は取れていません。
-- なので、環境依存トラブル、自分のiPadのなんらかの設定が原因、などの可能性も残っています。
-
+- iPadで再現しました。
+- Windows PC（chromeのデベロッパーツールのモバイルエミュレーター）で再現しました。
